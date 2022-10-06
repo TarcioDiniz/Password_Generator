@@ -126,10 +126,6 @@ function generate(){
     }
     
 
-    
-
-
-
 function copy(){
     let displaySenha = document.getElementById('PwdGenerator')
 
