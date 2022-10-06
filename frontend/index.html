@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador_Senhas</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="/backend/index.js"></script>
+</head>
+<body>
+    <div id="app">
+        <label id="text_top" for="PwdGenerator">Password Generator</label><br><br>
+        <textarea id="PwdGenerator" name="PwdGenerator" rows="1" cols="35"></textarea>
+        <div class="container">
+            <label class="switch">
+                <span class="switch-text">Length</span>
+                <div class="switch-number">
+                    <input id="input_size" type="number" name="Length"  min="1" max="100"/>
+                    <span class="switch_number"></span>
+                </div>
+            </label>
+        </div>
+
+        <div class="container2">
+            <label class="switch">
+                <span class="switch-text">Uppercase</span>
+                <div class="switch-wrapper">
+                    <input type="checkbox" id="upper"  name="Uppercase" />
+                    <span class="switch_button"></span>
+                </div>
+            </label>
+        </div>
+
+        <div class="container3">
+            <label class="switch">
+                <span class="switch-text">Lowercase</span>
+                <div class="switch-wrapper">
+                    <input type="checkbox"  id="lower" name="Lowercase"/>
+                    <span class="switch_button"></span>
+                </div>
+            </label>
+        </div>
+
+        <div class="container4">
+            <label class="switch">
+                <span class="switch-text">Numbers</span>
+                <div class="switch-wrapper">
+                    <input type="checkbox" id="Numbers"  name="Numbers"/>
+                    <span class="switch_button"></span>
+                </div>
+            </label>
+        </div>
+
+        <div class="container5">
+            <label class="switch">
+                <span class="switch-text">Symbols</span>
+                <div class="switch-wrapper">
+                    <input type="checkbox" id="Symbols"  name="Symbols"/>
+                    <span class="switch_button"></span>
+                </div>
+            </label>
+        </div>
+
+        <div class="Button">
+            <button id="generate" onclick="generate()" type="submit">
+                <span>
+                <img src="https://images.emojiterra.com/mozilla/512px/1f511.png" alt="">
+            </span>Generate</button>
+
+            <button id="copy" onclick="copy()" type="submit">
+                <span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/57/57166.png" alt="">
+                </span>Copy
+            </button>
+
+        </div>
+
+    </div>
+</body>
+
+<script>
+
+
+</script>
+
+</html>
