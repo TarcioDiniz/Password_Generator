@@ -11,4 +11,6 @@ Choose defaults and generate passwords as you like:
 - LOWER CASE
 - NUMBERS
 - SYMBOLS
+
+
 [![Watch the video](https://img.youtube.com/vi/InKqIly-yNw/maxresdefault.jpg)](https://youtu.be/InKqIly-yNw)
